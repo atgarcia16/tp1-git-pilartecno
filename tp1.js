@@ -47,8 +47,12 @@ function findKeysInCommon(objeto1, objeto2) {
 // Llamamos a las funciones y mostramos los resultados
 
 function main() {
+  console.log("Trabajo Practico N° 1")
+  console.log("\nEjercicio 1")
   console.log(extractValues({a: 1, b: 2, c: 3}));
+  console.log("\nEjercicio 2")
   console.log(arrayToLengthCounters(['gato', 'perro', 'elefante']));
+  console.log("\nEjercicio 3")
   console.log(findKeysInCommon({a: 1, b: 2, c: 3}, {b: 4, c: 5, d: 6}));
 }
 
